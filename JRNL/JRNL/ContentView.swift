@@ -24,4 +24,6 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .modelContainer(for: JournalEntry.self)
+
 }

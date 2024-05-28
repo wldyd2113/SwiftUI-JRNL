@@ -15,4 +15,5 @@ struct MapView: View {
 
 #Preview {
     MapView()
+        .modelContainer(for: JournalEntry.self)
 }

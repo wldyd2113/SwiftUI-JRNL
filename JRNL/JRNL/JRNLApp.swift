@@ -13,5 +13,6 @@ struct JRNLApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: JournalEntry.self)
     }
 }
