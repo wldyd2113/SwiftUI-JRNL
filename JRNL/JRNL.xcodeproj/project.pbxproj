@@ -13,6 +13,7 @@
 		3B7391472C05A50100D8EB1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7391462C05A50100D8EB1A /* Preview Assets.xcassets */; };
 		3B7391512C05A5CC00D8EB1A /* JournalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7391502C05A5CC00D8EB1A /* JournalListView.swift */; };
 		3B7391542C05ABA700D8EB1A /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7391532C05ABA700D8EB1A /* JournalEntry.swift */; };
+		3B7391582C05B06A00D8EB1A /* JournalEntryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7391572C05B06A00D8EB1A /* JournalEntryDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		3B7391462C05A50100D8EB1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B7391502C05A5CC00D8EB1A /* JournalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalListView.swift; sourceTree = "<group>"; };
 		3B7391532C05ABA700D8EB1A /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		3B7391572C05B06A00D8EB1A /* JournalEntryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				3B7391502C05A5CC00D8EB1A /* JournalListView.swift */,
+				3B7391572C05B06A00D8EB1A /* JournalEntryDetail.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				3B7391512C05A5CC00D8EB1A /* JournalListView.swift in Sources */,
 				3B7391422C05A50000D8EB1A /* ContentView.swift in Sources */,
 				3B7391542C05ABA700D8EB1A /* JournalEntry.swift in Sources */,
+				3B7391582C05B06A00D8EB1A /* JournalEntryDetail.swift in Sources */,
 				3B7391402C05A50000D8EB1A /* JRNLApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

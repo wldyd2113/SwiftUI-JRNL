@@ -6,24 +6,27 @@
 //
 
 import Foundation
+import UIKit
 
-class JournalEntry {
-    let dateString: String
+
+class JournalEntry: Identifiable {
+    let id = UUID()
+    let date: Date
     let rating: Int
     let entryTitle: String
-    let entryVody: String
-    let photoData: Data?
+    let entryBody: String
+    let photo: UIImage
     let latitude: Double?
-    let longitoude: Double?
+    let longitude: Double?
     
-    init(dateString: String, rating: Int, entryTitle: String, entryVody: String, photoData: Data?, latitude: Double?, longitoude: Double?) {
-        self.dateString = dateString
+    init(date: Date, rating: Int, entryTitle: String, entryBody: String, photo: UIImage, latitude: Double?, longitude: Double?) {
+        self.date = date
         self.rating = rating
         self.entryTitle = entryTitle
-        self.entryVody = entryVody
-        self.photoData = photoData
+        self.entryBody = entryBody
+        self.photo = photo
         self.latitude = latitude
-        self.longitoude = longitoude
+        self.longitude = longitude
     }
     
     
