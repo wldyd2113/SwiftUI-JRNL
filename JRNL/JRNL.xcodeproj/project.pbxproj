@@ -13,6 +13,7 @@
 		3B7391472C05A50100D8EB1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7391462C05A50100D8EB1A /* Preview Assets.xcassets */; };
 		3B7391602C05C78C00D8EB1A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B73915F2C05C78C00D8EB1A /* MapView.swift */; };
 		3B7391622C05C79B00D8EB1A /* JournalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7391612C05C79B00D8EB1A /* JournalListView.swift */; };
+		3B7391642C05CA0600D8EB1A /* AddJournalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7391632C05CA0600D8EB1A /* AddJournalEntryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		3B7391462C05A50100D8EB1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B73915F2C05C78C00D8EB1A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		3B7391612C05C79B00D8EB1A /* JournalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalListView.swift; sourceTree = "<group>"; };
+		3B7391632C05CA0600D8EB1A /* AddJournalEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJournalEntryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				3B73913F2C05A50000D8EB1A /* JRNLApp.swift */,
 				3B7391412C05A50000D8EB1A /* ContentView.swift */,
 				3B7391612C05C79B00D8EB1A /* JournalListView.swift */,
+				3B7391632C05CA0600D8EB1A /* AddJournalEntryView.swift */,
 				3B73915F2C05C78C00D8EB1A /* MapView.swift */,
 				3B7391432C05A50100D8EB1A /* Assets.xcassets */,
 				3B7391452C05A50100D8EB1A /* Preview Content */,
@@ -146,6 +149,7 @@
 				3B7391422C05A50000D8EB1A /* ContentView.swift in Sources */,
 				3B7391602C05C78C00D8EB1A /* MapView.swift in Sources */,
 				3B7391622C05C79B00D8EB1A /* JournalListView.swift in Sources */,
+				3B7391642C05CA0600D8EB1A /* AddJournalEntryView.swift in Sources */,
 				3B7391402C05A50000D8EB1A /* JRNLApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
