@@ -7,10 +7,27 @@
 
 import SwiftUI
 
+struct RatingView: View {
+    @Binding var rating: Int
+    
+    var body:  some View {
+        HStack {
+            ForEach(0..<5) { index in
+                Image(systemName: index < rating ? "star.fill" : "star")
+                    .foregroundColor(.blue)
+                    .onTapGesture {
+                        rating = index + 1
+                    }
+            }
+        }
+    }
+}
+
 struct AddJournalEntryView: View {
     @Environment(\.dismiss) var dismiss
     @Environment(\.modelContext) var modelContext
     
+    @State private var rating = 0
     @State private var isGetLocationOn = false
     @State private var entryTitle = ""
     @State private var entryBody = ""
@@ -19,8 +36,8 @@ struct AddJournalEntryView: View {
         NavigationStack {
             Form {
                 Section(header: Text("Rating")) {
-                    Rectangle()
-                        .foregroundStyle(.cyan)
+                    RatingView(rating: $rating)
+                        .frame(maxWidth: .infinity, alignment: .center)
                 }
                 Section(header: Text("Location")) {
                     Toggle("Get Location", isOn: $isGetLocationOn)
